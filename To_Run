@@ -1,0 +1,26 @@
+#create a virtual enviorment
+python3 -m venv venv
+
+#activate venv
+source venv/bin/activate
+
+#install requirements.txt
+pip3 install -r requirement.txt
+
+#to run the file
+python3 app.py run
+
+
+#url
+http://localhost:5000/
+
+Note:copy above URL to browser to see the files.
+
+#to read a specific file
+http://localhost:5000/file2.txt
+
+#add start and end line numbers as query parameters
+
+http://localhost:5000/file2.txt?start=3&end=5.
+
+Note : If any errors occur, an error page with the exception details will be displayed.
